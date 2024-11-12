@@ -2,3 +2,14 @@ body {
     margin: 0;
 }
 
+#list li {
+    display: none;
+}
+
+#list li:first-child {
+    display: list-item;
+}
+
+#toggleButton {
+    margin-left: 20px;
+}
